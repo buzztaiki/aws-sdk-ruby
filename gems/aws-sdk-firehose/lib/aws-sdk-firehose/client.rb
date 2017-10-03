@@ -75,7 +75,7 @@ module Aws::Firehose
     #   * `~/.aws/config`
     #   * EC2 IMDS instance profile - When used by default, the timeouts are
     #     very aggressive. Construct and pass an instance of
-    #     `Aws::InstanceProfileCredentails` to enable retries and extended
+    #     `Aws::InstanceProfileCredentials` to enable retries and extended
     #     timeouts.
     #
     # @option options [required, String] :region

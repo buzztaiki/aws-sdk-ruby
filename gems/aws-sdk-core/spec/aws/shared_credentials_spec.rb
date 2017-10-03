@@ -53,7 +53,7 @@ module Aws
       }.to raise_error(Errors::NoSuchProfileError, msg)
     end
 
-    it 'is set when credentails is valid' do
+    it 'is set when credentials is valid' do
       creds = SharedCredentials.new(path:mock_credential_file)
       expect(creds.set?).to eq(true)
     end
